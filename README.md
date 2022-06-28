@@ -3,6 +3,8 @@ A Button API I Made For Rose That Makes It Easy To Add Single Buttons To The Loa
 
 If You have any questions feel free to contact me at https://discord.gg/nbuaZEMT7g or contact me By my discord username Lime/Pyro/Creed#1212!
 
+if used throw a note with my discord name in the code :)
+
 How To USE
 
      LoadButton Restart = new LoadButton(new Vector3(-1246.402f, 1175.384f, 0f), new Vector3(1, 1, 1), "Restart", "RestartLoadButton", delegate
