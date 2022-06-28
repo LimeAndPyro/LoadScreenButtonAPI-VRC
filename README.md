@@ -7,7 +7,7 @@ if used throw a note with my discord name in the code :)
 
 ![Showcase](https://github.com/pyrotoxic11/LoadScreenButtonAPI-VRC/blob/main/LoadButtonExample.png)
 
-!
+![Example Code](https://github.com/pyrotoxic11/LoadScreenButtonAPI-VRC/blob/main/examplecode.png)
 
 HOW TO USE
 
