@@ -5,7 +5,7 @@ If You have any questions feel free to contact me at https://discord.gg/nbuaZEMT
 
 if used throw a note with my discord name in the code :)
 
-(https://github.com/pyrotoxic11/LoadScreenButtonAPI-VRC/blob/main/LoadButtonExample.png)
+![Showcase](https://github.com/pyrotoxic11/LoadScreenButtonAPI-VRC/blob/main/LoadButtonExample.png)
 
 HOW TO USE
 
