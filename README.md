@@ -15,3 +15,5 @@ HOW TO USE
             {
                Process.Start("vrchat.exe", Environment.CommandLine.ToString()); Process.GetCurrentProcess().Kill();
             }, Color.white, Color.red);
+            
+You can also change the background of the button but it is null by default.
