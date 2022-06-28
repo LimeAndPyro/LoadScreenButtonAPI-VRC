@@ -19,7 +19,7 @@ namespace RoseClient.SDK.Load
         public static string APINAME = "-LimesApi";
         public LoadButton(Vector3 Position, Vector3 Scale, string ButtonText, string ObjName, Action action)
         {
-            Buttonbase = UnityEngine.Object.Instantiate(LoadButtonExtensions.LoadButtonTemplate(), LoadButtonExtensions.LoadButtonTemplate().transform);
+            Buttonbase = UnityEngine.Object.Instantiate(LoadButtonExtensions.LoadButtonTemplate(), LoadButtonExtensions.LoadButtonTemplate().transform.parent);
             Buttonbase.name = ObjName + APINAME;
             Buttonbase.GetComponent<RectTransform>().localPosition = Position;
             Buttonbase.GetComponent<RectTransform>().localRotation = Quaternion.identity;
@@ -30,6 +30,7 @@ namespace RoseClient.SDK.Load
             Buttonbase.transform.Find("Decoration_Left").gameObject.SetActive(false);
             Buttonbase.transform.Find("Loading Elements").gameObject.SetActive(false);
             Buttonbase.transform.Find("Decoration_Right").gameObject.SetActive(false);
+            Buttonbase.transform.Find("Panel_Backdrop").gameObject.SetActive(false);
             Allbutton.Add(this);
             Button.GetComponent<Button>().onClick = new Button.ButtonClickedEvent();
             if (action != null)
