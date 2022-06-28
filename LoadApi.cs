@@ -16,10 +16,11 @@ namespace RoseClient.SDK.Load
         public static Text Label;
         public static List<LoadButton> Allbutton = new List<LoadButton>();
         public static GameObject Button;
+        public static string APINAME = "-LimesApi";
         public LoadButton(Vector3 Position, Vector3 Scale, string ButtonText, string ObjName, Action action)
         {
             Buttonbase = UnityEngine.Object.Instantiate(LoadButtonExtensions.LoadButtonTemplate(), LoadButtonExtensions.LoadButtonTemplate().transform);
-            Buttonbase.name = ObjName;
+            Buttonbase.name = ObjName + APINAME;
             Buttonbase.GetComponent<RectTransform>().localPosition = Position;
             Buttonbase.GetComponent<RectTransform>().localRotation = Quaternion.identity;
             Buttonbase.GetComponent<RectTransform>().localScale = Scale;
