@@ -3,7 +3,7 @@
 
 A Button API I Made For Rose That Makes It Easy To Add Single Buttons To The Load Screen!
 
-If You have any questions feel free to contact me at https://discord.gg/nbuaZEMT7g or contact me By my discord username Lime/Pyro/Creed#1212!
+If You have any questions feel free to contact me at https://discord.gg/rosemod or contact me By my discord username Lime/Pyro/Creed#1212!
 
 if used throw a note with my discord name in the code :)
 
