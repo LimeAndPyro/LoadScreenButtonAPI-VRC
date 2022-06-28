@@ -11,7 +11,7 @@ if used throw a note with my discord name in the code :)
 
 HOW TO USE
 
-      LoadButton Restart = new LoadButton(new Vector3(-1246.402f, 1175.384f, 0f), new Vector3(1, 1, 1), "Restart", "RestartLoadButton", delegate
-       {
-           Process.Start("vrchat.exe", Environment.CommandLine.ToString()); Process.GetCurrentProcess().Kill();
-       });
+      LoadButton Restart = new LoadButton(new Vector3(-1269.999f, 1175.384f, 0f), new Vector3(1, 1, 1), "Restart", "RestartLoadButton", delegate
+            {
+               Process.Start("vrchat.exe", Environment.CommandLine.ToString()); Process.GetCurrentProcess().Kill();
+            }, Color.white, Color.red);
