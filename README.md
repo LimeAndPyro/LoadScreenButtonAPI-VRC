@@ -9,6 +9,8 @@ if used throw a note with my discord name in the code :)
 
 ![Example Code](https://github.com/pyrotoxic11/LoadScreenButtonAPI-VRC/blob/main/examplecode.png)
 
+![Example gif](https://i.imgur.com/of6HLtW.gif)
+
 HOW TO USE
 
       LoadButton Restart = new LoadButton(new Vector3(-1269.999f, 1175.384f, 0f), new Vector3(1, 1, 1), "Restart", "RestartLoadButton", delegate
