@@ -1,4 +1,6 @@
 # LoadScreenButtonAPI-VRC
+!!!Currently Buttons Only Work On HomeWorld Load Its So Odd Working On Fix!!!
+
 A Button API I Made For Rose That Makes It Easy To Add Single Buttons To The Load Screen!
 
 If You have any questions feel free to contact me at https://discord.gg/nbuaZEMT7g or contact me By my discord username Lime/Pyro/Creed#1212!
